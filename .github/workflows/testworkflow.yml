@@ -10,7 +10,7 @@ on:
   pull_request:
     branches: [ "master" ]
 
-  # Allows you to run this workflow manually from the Actions tab
+  # Allows you to run `this workflow manually from the Actions tab
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -33,12 +33,12 @@ jobs:
       - name: get to know about runner file structure
         run: |
           ls
-          echo "printining current directory\n"
+          echo "printining current directory";
           pwd
-          echo "moving a one directory up \n"
+          echo "moving a one directory up";
           cd ..
-          echo "listing one folder up structre."
+          echo "listing one folder up structre.";
           ls
-          echo "moving to home directory\n"
+          echo "moving to home directory";
           cd
           ls
