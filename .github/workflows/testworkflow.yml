@@ -33,9 +33,12 @@ jobs:
       - name: get to know about runner file structure
         run: |
           ls
-          echo "printining current directory"
+          echo "printining current directory\n"
           pwd
+          echo "moving a one directory up \n"
           cd ..
+          echo "listing one folder up structre."
           ls
+          echo "moving to home directory\n"
           cd
           ls
